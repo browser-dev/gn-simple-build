@@ -15,6 +15,6 @@ Don't miss the ".gn" file in this directory which may be hidden on your system!
 ## Usage
 
 ```bash
-gclient config --unmanaged https://github.com/browser-dev/gn-simple-build.git
+gclient config --unmanaged https://github.com/browser-dev/gn-simple-build.git --name=src
 gclient sync
 ```
