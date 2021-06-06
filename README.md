@@ -6,8 +6,8 @@ This copy works fine on mid 2021, things gona be changed after
 
 ## prepare
 
-+ have [depot_tools](https://chromium.googlesource.com/chromium/src/+/refs/heads/main/docs/windows_build_instructions.md#install) installed
-If Windows download [Cygwin](http://cygwin.com/install.html) to let gcc/g++/rm been installed
++ have [depot_tools](https://www.chromium.org/developers/how-tos/get-the-code) installed
++ If Windows download [Cygwin](http://cygwin.com/install.html) to let gcc/g++/rm been installed
 
 ## Description
 This is an example directory structure that compiles some simple targets using
