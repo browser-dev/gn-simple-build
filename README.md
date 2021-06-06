@@ -4,6 +4,11 @@
 
 This copy works fine on mid 2021, things gona be changed after
 
+## prepare
+
++ have [depot_tools](https://chromium.googlesource.com/chromium/src/+/refs/heads/main/docs/windows_build_instructions.md#install) installed
+If Windows download [MinGW](http://mingw-w64.org/doku.php/download/mingw-builds) to let gcc/g++ been installed
+
 ## Description
 This is an example directory structure that compiles some simple targets using
 gcc. It is intended to show how to set up a simple GN build. It is deliberately
@@ -20,5 +25,13 @@ Don't miss the ".gn" file in this directory which may be hidden on your system!
 
 ```bash
 gclient config --unmanaged https://github.com/browser-dev/gn-simple-build.git --name=src
+```
+```bash
 gclient sync
+```
+```bash
+gn gen out
+```
+```bash
+ninja -C out
 ```
