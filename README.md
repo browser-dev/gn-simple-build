@@ -1,5 +1,9 @@
 # GN Simple Build Example
 
+## Warning
+
+This copy works fine on mid 2021, things gona be changed after
+
 ## Description
 This is an example directory structure that compiles some simple targets using
 gcc. It is intended to show how to set up a simple GN build. It is deliberately
