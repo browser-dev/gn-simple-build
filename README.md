@@ -2,7 +2,7 @@
 
 ## Warning
 
-This copy works fine on mid 2021, things gona be changed after
+This copy works fine on mid 2021, things gona be changed later
 
 ## prepare
 
