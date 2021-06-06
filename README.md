@@ -35,3 +35,7 @@ gn gen out
 ```bash
 ninja -C out
 ```
+
+## TODO
+
+Linux works fine, Windows failed, macOS not test
